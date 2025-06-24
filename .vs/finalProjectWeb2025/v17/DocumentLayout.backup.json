@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\models\\tips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\models\\tips.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\models\\webtipscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\models\\webtipscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\views\\codetips\\showalltips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\views\\codetips\\showalltips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\views\\codetips\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\views\\codetips\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\controllers\\codetipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\controllers\\codetipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\hitech\\source\\repos\\finalprojectweb2025\\finalprojectweb2025\\migrations\\20250615173637_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\migrations\\20250615173637_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Program.cs",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Program.cs",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Program.cs",
+              "RelativeToolTip": "finalProjectWeb2025\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:22:04.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\appsettings.json",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\appsettings.json",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\appsettings.json",
+              "RelativeToolTip": "finalProjectWeb2025\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T17:17:40.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tips.cs",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Models\\Tips.cs",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Models\\Tips.cs",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Models\\Tips.cs",
+              "RelativeToolTip": "finalProjectWeb2025\\Models\\Tips.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:22:56.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Models\\Users.cs",
+              "RelativeToolTip": "finalProjectWeb2025\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:11:53.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebTipsContext.cs",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Models\\WebTipsContext.cs",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Models\\WebTipsContext.cs",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Models\\WebTipsContext.cs",
+              "RelativeToolTip": "finalProjectWeb2025\\Models\\WebTipsContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:26:50.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShowAllTips.cshtml",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Views\\CodeTips\\ShowAllTips.cshtml",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Views\\CodeTips\\ShowAllTips.cshtml",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Views\\CodeTips\\ShowAllTips.cshtml",
+              "RelativeToolTip": "finalProjectWeb2025\\Views\\CodeTips\\ShowAllTips.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T07:28:56.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CodeTipsController.cs",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Controllers\\CodeTipsController.cs",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Controllers\\CodeTipsController.cs",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Controllers\\CodeTipsController.cs",
+              "RelativeToolTip": "finalProjectWeb2025\\Controllers\\CodeTipsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:50:36.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Views\\CodeTips\\Create.cshtml",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Views\\CodeTips\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Views\\CodeTips\\Create.cshtml",
+              "RelativeToolTip": "finalProjectWeb2025\\Views\\CodeTips\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T06:51:45.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250615173637_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Migrations\\20250615173637_InitialCreate.cs",
+              "RelativeDocumentMoniker": "finalProjectWeb2025\\Migrations\\20250615173637_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HITECH\\source\\repos\\finalProjectWeb2025\\finalProjectWeb2025\\Migrations\\20250615173637_InitialCreate.cs",
+              "RelativeToolTip": "finalProjectWeb2025\\Migrations\\20250615173637_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T17:36:37.21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
