@@ -4,6 +4,16 @@
 *@
 @{
 }
+<!--هاذ عشان ادخل كلمه وابحث عنها -->
+<form asp-action="SearchTips" method="post">
+    <label>Enter keyword:</label>
+    <input type="text" name="keyword" />
+    <button type="submit">Search</button>
+</form>
+
+
+
+
 <table class="table">
     <tr>
         <th>Name</th>
@@ -11,7 +21,7 @@
         <th>Content</th>
         <th>Category</th>
         <th></th>
-        
+        <th></th>
      
     </tr>
     @foreach (var tip in Model)
@@ -21,7 +31,11 @@
             <td>@tip.Title</td>
             <td>@tip.Content</td>
             <td>@tip.Category</td>
-            <td><a href="/CodeTips/Delete/@tip.TipId">Delete</a></td> <!--رابط لما اكبس عليه باعتبار ناديت على الاكشن ميثود المختصه بالحذف-->
+            <td><a href="/CodeTips/Delete/@tip.TipId" class="btn btn-danger">Delete </a></td> <!--رابط لما اكبس عليه باعتبار ناديت على الاكشن ميثود المختصه بالحذف-->
+            <td>
+                <a asp-controller="CodeTips" asp-action="EditTip" asp-route-id="@tip.TipId" class="btn btn-warning">Edit</a>
+            </td><!--طريقه ثانيه عشان استعدي الاكشن عشان يعملي بالجدول زر تعديل-->
+
         </tr>
     }
 </table>

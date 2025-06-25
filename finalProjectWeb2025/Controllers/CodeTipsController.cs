@@ -74,6 +74,32 @@ namespace finalProjectWeb2025.Controllers
             }
             return RedirectToAction("ShowAllTips");
         }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        [HttpGet]
+        public IActionResult EditTip(int id)
+        {
+            ViewBag.users = _context.users.ToList();
+            Tips tip = _context.tips.Find(id);
+            return View(tip);
+        }
+
+        [HttpPost]
+        public IActionResult EditTip(Tips tip)
+        {
+            _context.tips.Update(tip);
+            _context.SaveChanges();
+            return RedirectToAction("ShowAllTips");
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////
+
+        [HttpPost]
+        public IActionResult SearchTips(string keyword)
+        {
+            var results = _context.tips .Where(t => t.Title.Contains(keyword) || t.Content.Contains(keyword)) .ToList();
+
+            return View("ShowAllTips", results);
+        }
     }
 }

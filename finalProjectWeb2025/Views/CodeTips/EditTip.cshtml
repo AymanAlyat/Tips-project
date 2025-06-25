@@ -1,0 +1,41 @@
+﻿@model Tips
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2>Edit Tip</h2>
+
+<form asp-action="EditTip" method="post">
+    <input type="hidden" asp-for="TipId" /> <!-- علشان يعرف أي نصيحة يعدل --><!-- كمان عشان يمنعك تعدل الاي دي -->
+       
+    <div>
+        <label>Title</label>
+        <input asp-for="Title" />
+    </div>
+
+    <div>
+        <label>Content</label>
+        <textarea asp-for="Content"></textarea>
+    </div>
+
+    <div>
+        <label>Category</label>
+        <input asp-for="Category" />
+    </div>
+
+    <div>
+        <label>User</label>
+        <select name="UserId">
+            @foreach (var user in ViewBag.users)
+            {
+                <option value="@user.UserId" selected="@(user.UserId == Model.UserId)">
+                    @user.Name
+                </option>
+
+            }
+        </select>
+    </div>
+
+    <button type="submit">Save Changes</button>
+</form>

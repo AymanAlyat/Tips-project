@@ -62,3 +62,4 @@ C:\Users\HITECH\source\repos\finalProjectWeb2025\finalProjectWeb2025\obj\Debug\n
 C:\Users\HITECH\source\repos\finalProjectWeb2025\finalProjectWeb2025\obj\Debug\net6.0\finalProjectWeb2025.pdb
 C:\Users\HITECH\source\repos\finalProjectWeb2025\finalProjectWeb2025\obj\Debug\net6.0\finalProjectWeb2025.genruntimeconfig.cache
 C:\Users\HITECH\source\repos\finalProjectWeb2025\finalProjectWeb2025\obj\Debug\net6.0\ref\finalProjectWeb2025.dll
+C:\Users\HITECH\source\repos\finalProjectWeb2025\finalProjectWeb2025\obj\Debug\net6.0\finalProjectWeb2025.sourcelink.json
