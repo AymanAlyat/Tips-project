@@ -14,6 +14,23 @@
 
 
 
+<!--دروب داون لست عشان تختار الكاتاجوري وتعمل فلتره حسب نوع النصيحه -->
+
+
+<form asp-action="FilterByCategory" method="post">
+    <select name="category">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+    <button type="submit">Filter</button>
+</form>
+
+
+
+
+
+
 <table class="table">
     <tr>
         <th>Name</th>

@@ -97,9 +97,49 @@ namespace finalProjectWeb2025.Controllers
         [HttpPost]
         public IActionResult SearchTips(string keyword)
         {
-            var results = _context.tips .Where(t => t.Title.Contains(keyword) || t.Content.Contains(keyword)) .ToList();
+            List<Tips> tips = _context.tips.Include(t => t.User) .Where(t => t.Title.Contains(keyword) || t.Content.Contains(keyword)).ToList();
 
-            return View("ShowAllTips", results);
+            return View("ShowAllTips", tips);
         }
+
+
+        ////////////////////////////////////////////////////////////////////////////////////// 
+
+        public IActionResult FilterByCategory(string category)
+        {
+            List<Tips> tips = _context.tips.Include(t => t.User).Where(t => t.Category == category).ToList();
+
+            return View("ShowAllTips", tips);
+        }
+
+
+        //////////////////////////////////////////////////////////////////////////////////////
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(string email, string password)
+        {
+            var user = _context.users.FirstOrDefault(u => u.Email == email && u.Password == password);
+            if (user != null)
+            {
+                HttpContext.Session.SetInt32("userId", user.UserId); // تخزين اليوزر بالسيشن
+                return RedirectToAction("ShowAllTips");
+            }
+            else
+            {
+                ViewBag.Error = "Invalid email or password.";
+                return View();
+            }
+        }
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////
+        
+
+
     }
 }

@@ -5,10 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();/// لاتاحه السيشن
 
 
-
-                              // هاذ كلاس الكونتكست اللي بدي اتعامل من خلاله مع الداتا بيس
+// هاذ كلاس الكونتكست اللي بدي اتعامل من خلاله مع الداتا بيس
 builder.Services.AddDbContext<WebTipsContext>(options =>
   options.UseSqlServer(builder.Configuration.GetConnectionString("TipseContextStr")));//اسم الكونكشن سترنج اللي حكيتلك عنه رح تستخدمه هون 
 
@@ -27,6 +28,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();//خطوات لاستخدام السيشن
 
 app.UseAuthorization();
 
