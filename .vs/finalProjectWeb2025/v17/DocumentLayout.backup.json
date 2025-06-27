@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\web project\\Tips-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\user\\desktop\\web project\\tips-project\\finalprojectweb2025\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\user\\desktop\\web project\\tips-project\\finalprojectweb2025\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\user\\desktop\\web project\\tips-project\\finalprojectweb2025\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\user\\desktop\\web project\\tips-project\\finalprojectweb2025\\views\\codetips\\showallusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\views\\codetips\\showallusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\user\\desktop\\web project\\tips-project\\finalprojectweb2025\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\user\\desktop\\web project\\tips-project\\finalprojectweb2025\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|solutionrelative:finalprojectweb2025\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD87639-FDCB-40E0-8576-EBEB1ABDB4F8}|finalProjectWeb2025\\finalProjectWeb2025.csproj|c:\\users\\user\\desktop\\web project\\tips-project\\finalprojectweb2025\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\web project\\Tips-project\\finalProjectWeb2025\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "finalProjectWeb2025\\Views\\Home\\Index.cshtml",
@@ -98,12 +98,11 @@
               "RelativeToolTip": "finalProjectWeb2025\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T19:17:29.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T19:17:29.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\web project\\Tips-project\\finalProjectWeb2025\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "finalProjectWeb2025\\Views\\Shared\\_Layout.cshtml",
@@ -115,15 +114,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\web project\\Tips-project\\finalProjectWeb2025\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "finalProjectWeb2025\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\user\\Desktop\\web project\\Tips-project\\finalProjectWeb2025\\wwwroot\\css\\site.css",
               "RelativeToolTip": "finalProjectWeb2025\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-27T18:44:31.223Z"
+              "WhenOpened": "2025-06-27T18:44:31.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ShowAllUsers.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\web project\\Tips-project\\finalProjectWeb2025\\Views\\CodeTips\\ShowAllUsers.cshtml",
               "RelativeDocumentMoniker": "finalProjectWeb2025\\Views\\CodeTips\\ShowAllUsers.cshtml",
@@ -163,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CodeTipsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\web project\\Tips-project\\finalProjectWeb2025\\Controllers\\CodeTipsController.cs",
               "RelativeDocumentMoniker": "finalProjectWeb2025\\Controllers\\CodeTipsController.cs",
