@@ -1,0 +1,20 @@
+﻿@model List<finalProjectWeb2025.Models.Users>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2>the users have the same Email domain as "@ViewBag.email "(" @ViewBag.domain")</h2>
+@if(@Model.Count==0){
+    <p>thers no users have the same Email domain</p>
+}
+else
+{
+    <ul>
+        @foreach(var user in Model)
+        {
+            <li><strong>@user.Name</strong>-@user.Email </li>
+        }
+
+    </ul>
+}

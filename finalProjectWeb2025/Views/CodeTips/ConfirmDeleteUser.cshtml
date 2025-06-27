@@ -1,0 +1,17 @@
+﻿@model finalProjectWeb2025.Models.Users//(هي نفسها user بس لانه البرنامج ما قبلها الي هيك)
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Confirm Delete User";
+}
+<h2>confirm Delete</h2>
+<p>Are you sure to delete the user <strong>@Model.Name</strong>-@Model.Email</p>
+<form asp-action="ConfirmDeleteUserPost" method="post">
+    <input type="hidden" name="id" value="@Model.UserId" />
+    <button type="submit" style="background-color: red; color: white; border: none; padding: 8px 12px;">
+        Yes, Delete>yes delete
+    </button>
+</form>

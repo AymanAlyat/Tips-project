@@ -136,10 +136,74 @@ namespace finalProjectWeb2025.Controllers
                 return View();
             }
         }
+        [HttpGet]
+        public IActionResult Logout()
+        {
+            // تنظيف كل بيانات السيشن (تسجيل الخروج)
+            HttpContext.Session.Clear();
 
+            // إعادة التوجيه لصفحة تسجيل الدخول
+            return RedirectToAction("Login");
+        }
         ///////////////////////////////////////////////////////////////////////////////////////////////////
-        
+        [HttpGet]
+        //عشان نعرض نصائح مشابه لنصيحه معينه (الهم نفس catigory
+        public IActionResult SuggestSimilarTips(int tipid)
+        {
+            var currentTip = _context.tips.FirstOrDefault(tt => tt.TipId == tipid);
+            if(currentTip==null)
+            {
+                return NotFound();//اذا النصيحه مش موجوده رجع غلط
 
-
+            }
+            //نجيب نصائح ثانيه من نغس الفئه لكن غير النصيحه الحاليه
+            var suggestion = _context.tips.Where(t => t.Category == currentTip.Category && t.TipId != tipid).
+                Take(5)//خوذ خمس نصائح
+                .ToList();
+            ViewBag.OriginalTitle = currentTip.Title;//برجع عنوان النصيحه
+            return View(suggestion);
+        }
+        [HttpGet]
+        public IActionResult findUserbydomain(int id)
+        {
+            var currentuser = _context.users.FirstOrDefault(s => s.UserId == id);
+            if (currentuser == null)
+            
+                return NotFound();
+            //برجع القسم الي بعد (@)
+            var domain = currentuser.Email.Split('@').Last();
+            //برجع قائمه بالمستخدمين الي الجزء بعد الدومين متشابه
+            var userWithDomain = _context.users.Where(st => st.Email.Contains(domain) && st.UserId != id).ToList();
+            ViewBag.email = currentuser.Email;
+            ViewBag.domain = domain;
+            return View(userWithDomain);
+        }
+      public IActionResult ShowAllUsers()
+        {
+            List<Users> user = _context.users.ToList();
+            return View(user);
+        }
+        [HttpGet]
+        public IActionResult ConfirmDeleteUser(int id)//تاكيد الحذف
+        {
+            var user = _context.users.FirstOrDefault(s => s.UserId == id);
+            if(user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]//بنستخدمها للحمايه من هجمات زي محاوله خداع المستخدم لتنفيذ طلب زي حذف او تعديل
+        public IActionResult ConfirmDeleteUserPost(int id)//تنفيذ الحذف
+        {
+            var user = _context.users.FirstOrDefault(s => s.UserId == id);
+            if (user != null)
+            {
+                _context.users.Remove(user);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("ShowAllUsers");
+        }
     }
 }
