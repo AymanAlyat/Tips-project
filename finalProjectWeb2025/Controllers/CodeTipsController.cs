@@ -147,36 +147,47 @@ namespace finalProjectWeb2025.Controllers
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////
         [HttpGet]
-        //عشان نعرض نصائح مشابه لنصيحه معينه (الهم نفس catigory
-        public IActionResult SuggestSimilarTips(int tipid)
+        
+        public IActionResult SuggestSimilarTips(int? id)
         {
-            var currentTip = _context.tips.FirstOrDefault(tt => tt.TipId == tipid);
+          if(id == null)
+            {
+                return RedirectToAction("Login", "CodeTips");
+            }
+            
+            var currentTip = _context.tips.FirstOrDefault(tt => tt.TipId == id.Value);
             if(currentTip==null)
             {
-                return NotFound();//اذا النصيحه مش موجوده رجع غلط
-
+                return RedirectToAction("Login", "CodeTips");
             }
-            //نجيب نصائح ثانيه من نغس الفئه لكن غير النصيحه الحاليه
-            var suggestion = _context.tips.Where(t => t.Category == currentTip.Category && t.TipId != tipid).
-                Take(5)//خوذ خمس نصائح
-                .ToList();
-            ViewBag.OriginalTitle = currentTip.Title;//برجع عنوان النصيحه
+            
+            var suggestion = _context.tips.Where(t => t.Category == currentTip.Category && t.TipId != id).Take(5).ToList();
+            ViewBag.OriginalTitle = currentTip.Title;
             return View(suggestion);
         }
         [HttpGet]
-        public IActionResult findUserbydomain(int id)
+        public IActionResult FindUserByDomain(int? id)
         {
-            var currentuser = _context.users.FirstOrDefault(s => s.UserId == id);
+            if (id == null)
+            {
+                return RedirectToAction("Login","CodeTips");
+            }
+            var currentuser = _context.users.FirstOrDefault(s => s.UserId == id.Value);
             if (currentuser == null)
+            {
+                return RedirectToAction("Login","CodeTips");
+            }
+
             
-                return NotFound();
-            //برجع القسم الي بعد (@)
-            var domain = currentuser.Email.Split('@').Last();
+  
+                var domain = currentuser.Email.Split('@').Last();
             //برجع قائمه بالمستخدمين الي الجزء بعد الدومين متشابه
-            var userWithDomain = _context.users.Where(st => st.Email.Contains(domain) && st.UserId != id).ToList();
+            var userWithDomain = _context.users.Where(st => st.Email.EndsWith("@" + domain) && st.UserId != id.Value).ToList();
             ViewBag.email = currentuser.Email;
             ViewBag.domain = domain;
             return View(userWithDomain);
+            
+             
         }
       public IActionResult ShowAllUsers()
         {
@@ -184,12 +195,17 @@ namespace finalProjectWeb2025.Controllers
             return View(user);
         }
         [HttpGet]
-        public IActionResult ConfirmDeleteUser(int id)//تاكيد الحذف
+        public IActionResult ConfirmDeleteUser(int ?id)//تاكيد الحذف
         {
-            var user = _context.users.FirstOrDefault(s => s.UserId == id);
+            if (id == null)
+            {
+                return RedirectToAction("Login", "CodeTips");
+            }
+            var user = _context.users.FirstOrDefault(s => s.UserId == id.Value);
             if(user == null)
             {
-                return NotFound();
+                return RedirectToAction("Login", "CodeTips");
+
             }
             return View(user);
         }
